@@ -1,0 +1,16 @@
+[workspace]
+channels = ["conda-forge"]
+name = "homework2"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+geopandas = ">=1.1.2,<2"
+pandas = ">=3.0.1,<4"
+jupyter = ">=1.1.1,<2"
+notebook = ">=7.5.3,<8"
+numpy = ">=2.4.2,<3"
+git = ">=2.53.0,<3"
+gh = ">=2.87.0,<3"
